@@ -4,8 +4,8 @@ function GalleryList() {
     const galleryItems = [
         {
             id: 1,
-            title: 'Image1',
-            imageSrc: 'images/image1.png',
+            title: '직장일 색깔 테스트',
+            imageSrc: 'images/image2.png',
             link:'/pages/TestPage',
         },
         {
@@ -38,7 +38,7 @@ function GalleryList() {
 
     return (
         <div className="page-wrap">
-            <h2>Test List</h2>
+            {/*<h2>Test List</h2>*/}
             <div className="gallery-list">
                 {galleryItems.map(item => (
                     <div className="gallery-item" key={item.id}>
